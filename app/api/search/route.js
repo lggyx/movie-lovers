@@ -9,8 +9,8 @@ export async function GET(request) {
   if (!q) return NextResponse.json({ results: [] });
   try {
     return NextResponse.json({ results: await searchMovies(q) });
-  } catch (e) {
-    // Error messages never include the upstream URL or the API key.
-    return NextResponse.json({ error: e.message }, { status: 502 });
+  } catch {
+    // Generic message: never surface upstream internals (or the key) to the client.
+    return NextResponse.json({ error: "Movie search is unavailable right now" }, { status: 502 });
   }
 }

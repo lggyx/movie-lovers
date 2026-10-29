@@ -30,8 +30,9 @@ describe("tmdb client in mock mode (offline read-through)", () => {
 
   it("fetches recommendations (fixture read-through)", async () => {
     const recs = await movieRecommendations(603);
-    expect(recs.length).toBeGreaterThanOrEqual(11);
+    expect(recs.length).toBeGreaterThanOrEqual(13); // 13 fixtures: enough that the 10-cap and the exclusions are independently observable
     expect(recs.map((m) => m.id)).toContain(27205);
+    expect(recs.map((m) => m.id)).toContain(475557);
   });
 });
 
@@ -51,10 +52,14 @@ describe("offline end-to-end: similar picks exclude the watchlist", () => {
       const excludeIds = [...getWatchlistMovieIds(db, user.id), movie.id];
       const similar = filterSimilar(recommendations, excludeIds, 10);
 
-      expect(similar).toHaveLength(10);
+      // 13 recommendations minus 2 excluded ids leaves 11; the filter caps at
+      // 10, so BOTH facts are observable: the two exclusions (27205 gone even
+      // though capacity existed for it) and the cap (the 11th title dropped).
       const ids = similar.map((m) => m.id);
+      expect(similar).toHaveLength(10);
       expect(ids).not.toContain(603); // the movie itself
-      expect(ids).not.toContain(27205); // on the watchlist
+      expect(ids).not.toContain(27205); // on the watchlist — excluded despite free capacity
+      expect(ids).not.toContain(475557); // 11th candidate — dropped only by the 10-cap
       expect(ids).toEqual([157336, 155, 1124, 680, 496243, 129, 11, 769, 1422, 87291]);
     } finally {
       db.close();

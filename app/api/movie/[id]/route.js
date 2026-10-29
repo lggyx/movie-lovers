@@ -28,7 +28,8 @@ export async function GET(_request, { params }) {
     }
     const similar = filterSimilar(recommendations, excludeIds, 10);
     return NextResponse.json({ movie, similar });
-  } catch (e) {
-    return NextResponse.json({ error: e.message }, { status: 502 });
+  } catch {
+    // Generic message: never surface upstream/DB internals to the client.
+    return NextResponse.json({ error: "Could not load the movie" }, { status: 502 });
   }
 }

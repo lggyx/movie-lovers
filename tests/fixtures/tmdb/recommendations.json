@@ -12,6 +12,7 @@
     { "id": 11, "title": "Star Wars", "release_date": "1977-05-25", "vote_average": 8.2, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Star+Wars" },
     { "id": 769, "title": "Goodfellas", "release_date": "1990-09-12", "vote_average": 8.5, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Goodfellas" },
     { "id": 1422, "title": "The Departed", "release_date": "2006-10-05", "vote_average": 8.2, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=The+Departed" },
-    { "id": 87291, "title": "Oppenheimer", "release_date": "2023-07-19", "vote_average": 8.1, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Oppenheimer" }
+    { "id": 87291, "title": "Oppenheimer", "release_date": "2023-07-19", "vote_average": 8.1, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Oppenheimer" },
+    { "id": 475557, "title": "Joker", "release_date": "2019-10-01", "vote_average": 8.2, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Joker" }
   ]
 }
