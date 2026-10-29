@@ -1,0 +1,10 @@
+{
+  "id": 27205,
+  "title": "Inception",
+  "overview": "Cobb, a skilled thief is offered a chance at redemption: instead of stealing an idea, he must plant one. But no amount of careful planning can prepare the team for the dangerous enemy that seems to predict their every move.",
+  "release_date": "2010-07-16",
+  "vote_average": 8.4,
+  "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Inception",
+  "runtime": 148,
+  "genres": [{ "id": 28, "name": "Action" }, { "id": 878, "name": "Science Fiction" }]
+}

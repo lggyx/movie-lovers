@@ -1,0 +1,10 @@
+{
+  "id": 603,
+  "title": "The Matrix",
+  "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground rebels fighting the powerful machines who artificially created his reality.",
+  "release_date": "1999-03-31",
+  "vote_average": 8.2,
+  "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=The+Matrix",
+  "runtime": 136,
+  "genres": [{ "id": 28, "name": "Action" }, { "id": 878, "name": "Science Fiction" }]
+}

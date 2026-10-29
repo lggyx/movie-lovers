@@ -1,0 +1,17 @@
+{
+  "page": 1,
+  "results": [
+    { "id": 603, "title": "The Matrix", "release_date": "1999-03-31", "vote_average": 8.2, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=The+Matrix" },
+    { "id": 27205, "title": "Inception", "release_date": "2010-07-16", "vote_average": 8.4, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Inception" },
+    { "id": 157336, "title": "Interstellar", "release_date": "2014-11-05", "vote_average": 8.4, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Interstellar" },
+    { "id": 155, "title": "The Dark Knight", "release_date": "2008-07-16", "vote_average": 8.5, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=The+Dark+Knight" },
+    { "id": 680, "title": "Pulp Fiction", "release_date": "1994-09-10", "vote_average": 8.5, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Pulp+Fiction" },
+    { "id": 496243, "title": "Parasite", "release_date": "2019-05-30", "vote_average": 8.5, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Parasite" },
+    { "id": 129, "title": "Spirited Away", "release_date": "2001-07-20", "vote_average": 8.5, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Spirited+Away" },
+    { "id": 11, "title": "Star Wars", "release_date": "1977-05-25", "vote_average": 8.2, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Star+Wars" },
+    { "id": 769, "title": "Goodfellas", "release_date": "1990-09-12", "vote_average": 8.5, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Goodfellas" },
+    { "id": 1422, "title": "The Departed", "release_date": "2006-10-05", "vote_average": 8.2, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=The+Departed" },
+    { "id": 1124, "title": "The Prestige", "release_date": "2006-10-19", "vote_average": 8.2, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=The+Prestige" },
+    { "id": 87291, "title": "Oppenheimer", "release_date": "2023-07-19", "vote_average": 8.1, "poster_path": "https://placehold.co/342x513/0f172a/f59e0b?text=Oppenheimer" }
+  ]
+}
