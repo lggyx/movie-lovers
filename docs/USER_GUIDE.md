@@ -93,6 +93,8 @@ your current rating too ("Your rating (currently 4/5)").
 Open any movie's page and scroll down to **Similar picks**. You'll see up to
 10 movies the app thinks you'll enjoy, based on that movie.
 
+![The Matrix movie page: details, a 4-star "Your rating" control, and Similar picks excluding watchlist movies](screenshots/02-movie-detail.png)
+
 The nice part: **anything already on your watchlist is left out** of the list —
 so every suggestion is something new for you. The page even says it in the
 heading: *Similar picks (excluding your watchlist)*.
